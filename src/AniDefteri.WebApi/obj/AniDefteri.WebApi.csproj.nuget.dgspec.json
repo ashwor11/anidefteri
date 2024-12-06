@@ -1,0 +1,564 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\AniDefteri.WebApi\\AniDefteri.WebApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\AniDefteri.Application\\AniDefteri.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\AniDefteri.Application\\AniDefteri.Application.csproj",
+        "projectName": "AniDefteri.Application",
+        "projectPath": "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\AniDefteri.Application\\AniDefteri.Application.csproj",
+        "packagesPath": "C:\\Users\\Kerim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\AniDefteri.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kerim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\AniDefteri.Domain\\AniDefteri.Domain.csproj": {
+                "projectPath": "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\AniDefteri.Domain\\AniDefteri.Domain.csproj"
+              },
+              "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\Core\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj": {
+                "projectPath": "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\Core\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\AniDefteri.Domain\\AniDefteri.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\AniDefteri.Domain\\AniDefteri.Domain.csproj",
+        "projectName": "AniDefteri.Domain",
+        "projectPath": "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\AniDefteri.Domain\\AniDefteri.Domain.csproj",
+        "packagesPath": "C:\\Users\\Kerim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\AniDefteri.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kerim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\Core\\Core.Persistence\\Core.Persistence.csproj": {
+                "projectPath": "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\Core\\Core.Persistence\\Core.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\AniDefteri.Persistence\\AniDefteri.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\AniDefteri.Persistence\\AniDefteri.Persistence.csproj",
+        "projectName": "AniDefteri.Persistence",
+        "projectPath": "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\AniDefteri.Persistence\\AniDefteri.Persistence.csproj",
+        "packagesPath": "C:\\Users\\Kerim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\AniDefteri.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kerim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\AniDefteri.Application\\AniDefteri.Application.csproj": {
+                "projectPath": "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\AniDefteri.Application\\AniDefteri.Application.csproj"
+              },
+              "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\AniDefteri.Domain\\AniDefteri.Domain.csproj": {
+                "projectPath": "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\AniDefteri.Domain\\AniDefteri.Domain.csproj"
+              },
+              "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\Core\\Core.Persistence\\Core.Persistence.csproj": {
+                "projectPath": "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\Core\\Core.Persistence\\Core.Persistence.csproj"
+              },
+              "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\Core\\Core.Security\\Core.Security.csproj": {
+                "projectPath": "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\Core\\Core.Security\\Core.Security.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\AniDefteri.WebApi\\AniDefteri.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\AniDefteri.WebApi\\AniDefteri.WebApi.csproj",
+        "projectName": "AniDefteri.WebApi",
+        "projectPath": "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\AniDefteri.WebApi\\AniDefteri.WebApi.csproj",
+        "packagesPath": "C:\\Users\\Kerim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\AniDefteri.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kerim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\AniDefteri.Application\\AniDefteri.Application.csproj": {
+                "projectPath": "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\AniDefteri.Application\\AniDefteri.Application.csproj"
+              },
+              "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\AniDefteri.Persistence\\AniDefteri.Persistence.csproj": {
+                "projectPath": "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\AniDefteri.Persistence\\AniDefteri.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore.Filters": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\Core\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\Core\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj",
+        "projectName": "Core.CrossCuttingConcerns",
+        "projectPath": "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\Core\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj",
+        "packagesPath": "C:\\Users\\Kerim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\Core\\Core.CrossCuttingConcerns\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kerim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\Core\\Core.Persistence\\Core.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\Core\\Core.Persistence\\Core.Persistence.csproj",
+        "projectName": "Core.Persistence",
+        "projectPath": "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\Core\\Core.Persistence\\Core.Persistence.csproj",
+        "packagesPath": "C:\\Users\\Kerim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\Core\\Core.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kerim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\Core\\Core.Security\\Core.Security.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\Core\\Core.Security\\Core.Security.csproj",
+        "projectName": "Core.Security",
+        "projectPath": "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\Core\\Core.Security\\Core.Security.csproj",
+        "packagesPath": "C:\\Users\\Kerim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\Core\\Core.Security\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kerim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Otp.NET": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

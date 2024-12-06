@@ -1,0 +1,4 @@
+﻿namespace AniDefteri.Domain.Entities
+{
+    
+}
