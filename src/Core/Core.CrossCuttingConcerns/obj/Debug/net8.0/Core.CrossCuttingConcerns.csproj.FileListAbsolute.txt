@@ -10,3 +10,4 @@ C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\Core\Core.CrossCuttingConc
 C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\Core\Core.CrossCuttingConcerns\obj\Debug\net8.0\refint\Core.CrossCuttingConcerns.dll
 C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\Core\Core.CrossCuttingConcerns\obj\Debug\net8.0\Core.CrossCuttingConcerns.pdb
 C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\Core\Core.CrossCuttingConcerns\obj\Debug\net8.0\ref\Core.CrossCuttingConcerns.dll
+C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\Core\Core.CrossCuttingConcerns\obj\Debug\net8.0\Core.CrossCuttingConcerns.sourcelink.json

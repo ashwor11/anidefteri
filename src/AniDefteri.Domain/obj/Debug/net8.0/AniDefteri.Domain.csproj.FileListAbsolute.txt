@@ -13,3 +13,4 @@ C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\AniDefteri.Domain\obj\Debu
 C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\AniDefteri.Domain\obj\Debug\net8.0\refint\AniDefteri.Domain.dll
 C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\AniDefteri.Domain\obj\Debug\net8.0\AniDefteri.Domain.pdb
 C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\AniDefteri.Domain\obj\Debug\net8.0\ref\AniDefteri.Domain.dll
+C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\AniDefteri.Domain\obj\Debug\net8.0\AniDefteri.Domain.sourcelink.json

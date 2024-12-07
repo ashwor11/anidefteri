@@ -10,3 +10,4 @@ C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\Core\Core.Security\obj\Deb
 C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\Core\Core.Security\obj\Debug\net8.0\refint\Core.Security.dll
 C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\Core\Core.Security\obj\Debug\net8.0\Core.Security.pdb
 C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\Core\Core.Security\obj\Debug\net8.0\ref\Core.Security.dll
+C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\Core\Core.Security\obj\Debug\net8.0\Core.Security.sourcelink.json

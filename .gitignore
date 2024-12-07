@@ -22,10 +22,11 @@ Oo]bj/
 Ll]og/
 Ll]ogs/
 # Visual Studio files
-.suo
-.user
-.userosscache
-.sln.docstates
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 vs/
+.vs/
 # Rider files
 idea/

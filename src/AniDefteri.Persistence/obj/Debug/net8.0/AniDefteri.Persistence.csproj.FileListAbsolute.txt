@@ -21,3 +21,6 @@ C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\AniDefteri.Persistence\obj
 C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\AniDefteri.Persistence\obj\Debug\net8.0\refint\AniDefteri.Persistence.dll
 C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\AniDefteri.Persistence\obj\Debug\net8.0\AniDefteri.Persistence.pdb
 C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\AniDefteri.Persistence\obj\Debug\net8.0\ref\AniDefteri.Persistence.dll
+C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\AniDefteri.Persistence\bin\Debug\net8.0\Core.Application.dll
+C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\AniDefteri.Persistence\bin\Debug\net8.0\Core.Application.pdb
+C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\AniDefteri.Persistence\obj\Debug\net8.0\AniDefteri.Persistence.sourcelink.json

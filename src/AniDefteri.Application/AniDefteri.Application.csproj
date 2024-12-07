@@ -2,18 +2,19 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AniDefteri.Domain\AniDefteri.Domain.csproj" />
+    <ProjectReference Include="..\Core\Core.Application\Core.Application.csproj" />
     <ProjectReference Include="..\Core\Core.CrossCuttingConcerns\Core.CrossCuttingConcerns.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Features\Families\Commands\" />
     <Folder Include="Features\Families\Constants\" />
     <Folder Include="Features\Families\Models\" />
-    <Folder Include="Features\Families\Profiles\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
     <PackageReference Include="MediatR" Version="12.4.1" />
   </ItemGroup>
 

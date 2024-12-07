@@ -5,29 +5,28 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{60098801-7CAF-4D00-A8A5-0AFC1CEEB5FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AniDefteri.WebApi", "src\AniDefteri.WebApi\AniDefteri.WebApi.csproj", "{D1E93E02-8247-4133-B599-7EF6475B9226}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AniDefteri.WebApi", "src\AniDefteri.WebApi\AniDefteri.WebApi.csproj", "{D1E93E02-8247-4133-B599-7EF6475B9226}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AniDefteri.Domain", "src\AniDefteri.Domain\AniDefteri.Domain.csproj", "{D8D74BAB-726B-41AE-820C-DB9C650A5918}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AniDefteri.Domain", "src\AniDefteri.Domain\AniDefteri.Domain.csproj", "{D8D74BAB-726B-41AE-820C-DB9C650A5918}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AniDefteri.Application", "src\AniDefteri.Application\AniDefteri.Application.csproj", "{F862245B-7DF1-492F-B90C-9E627DD40CF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AniDefteri.Application", "src\AniDefteri.Application\AniDefteri.Application.csproj", "{F862245B-7DF1-492F-B90C-9E627DD40CF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AniDefteri.Persistence", "src\AniDefteri.Persistence\AniDefteri.Persistence.csproj", "{06014B6F-057F-4736-9656-2139FC124815}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AniDefteri.Persistence", "src\AniDefteri.Persistence\AniDefteri.Persistence.csproj", "{06014B6F-057F-4736-9656-2139FC124815}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{917A13B1-5AE4-466B-BED9-AFAF4892A016}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Security", "src\Core\Core.Security\Core.Security.csproj", "{64F31BE5-A226-45FE-81CB-E4D2B1B0DA93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Security", "src\Core\Core.Security\Core.Security.csproj", "{64F31BE5-A226-45FE-81CB-E4D2B1B0DA93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Persistence", "src\Core\Core.Persistence\Core.Persistence.csproj", "{BDB40846-80BE-4821-BB1A-B2EC7B9BA1C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Persistence", "src\Core\Core.Persistence\Core.Persistence.csproj", "{BDB40846-80BE-4821-BB1A-B2EC7B9BA1C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.CrossCuttingConcerns", "src\Core\Core.CrossCuttingConcerns\Core.CrossCuttingConcerns.csproj", "{538DABA7-530E-49B0-858C-A2D41407CD6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.CrossCuttingConcerns", "src\Core\Core.CrossCuttingConcerns\Core.CrossCuttingConcerns.csproj", "{538DABA7-530E-49B0-858C-A2D41407CD6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Application", "src\Core\Core.Application\Core.Application.csproj", "{F4864586-D035-4399-A547-510A50E5A87D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D1E93E02-8247-4133-B599-7EF6475B9226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -58,6 +57,13 @@ Global
 		{538DABA7-530E-49B0-858C-A2D41407CD6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{538DABA7-530E-49B0-858C-A2D41407CD6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{538DABA7-530E-49B0-858C-A2D41407CD6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4864586-D035-4399-A547-510A50E5A87D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4864586-D035-4399-A547-510A50E5A87D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4864586-D035-4399-A547-510A50E5A87D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4864586-D035-4399-A547-510A50E5A87D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D1E93E02-8247-4133-B599-7EF6475B9226} = {60098801-7CAF-4D00-A8A5-0AFC1CEEB5FB}
@@ -68,5 +74,9 @@ Global
 		{64F31BE5-A226-45FE-81CB-E4D2B1B0DA93} = {917A13B1-5AE4-466B-BED9-AFAF4892A016}
 		{BDB40846-80BE-4821-BB1A-B2EC7B9BA1C6} = {917A13B1-5AE4-466B-BED9-AFAF4892A016}
 		{538DABA7-530E-49B0-858C-A2D41407CD6D} = {917A13B1-5AE4-466B-BED9-AFAF4892A016}
+		{F4864586-D035-4399-A547-510A50E5A87D} = {917A13B1-5AE4-466B-BED9-AFAF4892A016}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00E00C6D-A4FB-4C98-A83B-C6441B24D266}
 	EndGlobalSection
 EndGlobal

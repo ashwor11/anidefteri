@@ -31,6 +31,43 @@
           }
         }
       },
+      "FluentValidation.AspNetCore/11.3.0": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "11.5.1",
+          "FluentValidation.DependencyInjectionExtensions": "11.5.1"
+        },
+        "compile": {
+          "lib/net6.0/FluentValidation.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/FluentValidation.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "FluentValidation.DependencyInjectionExtensions/11.11.0": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "11.11.0",
+          "Microsoft.Extensions.Dependencyinjection.Abstractions": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "MediatR/12.4.1": {
         "type": "package",
         "dependencies": {
@@ -1420,6 +1457,20 @@
           "bin/placeholder/AniDefteri.Domain.dll": {}
         }
       },
+      "Core.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "FluentValidation": "11.11.0",
+          "MediatR": "12.4.1"
+        },
+        "compile": {
+          "bin/placeholder/Core.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.Application.dll": {}
+        }
+      },
       "Core.CrossCuttingConcerns/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1492,6 +1543,42 @@
         "lib/netstandard2.0/FluentValidation.xml",
         "lib/netstandard2.1/FluentValidation.dll",
         "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
+    "FluentValidation.AspNetCore/11.3.0": {
+      "sha512": "jtFVgKnDFySyBlPS8bZbTKEEwJZnn11rXXJ2SQnjDhZ56rQqybBg9Joq4crRLz3y0QR8WoOq4iE4piV81w/Djg==",
+      "type": "package",
+      "path": "fluentvalidation.aspnetcore/11.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+        "fluentvalidation.aspnetcore.nuspec",
+        "lib/net5.0/FluentValidation.AspNetCore.dll",
+        "lib/net5.0/FluentValidation.AspNetCore.xml",
+        "lib/net6.0/FluentValidation.AspNetCore.dll",
+        "lib/net6.0/FluentValidation.AspNetCore.xml",
+        "lib/netcoreapp3.1/FluentValidation.AspNetCore.dll",
+        "lib/netcoreapp3.1/FluentValidation.AspNetCore.xml"
+      ]
+    },
+    "FluentValidation.DependencyInjectionExtensions/11.11.0": {
+      "sha512": "viTKWaMbL3yJYgGI0DiCeavNbE9UPMWFVK2XS9nYXGbm3NDMd0/L5ER4wBzmTtW3BYh3SrlSXm9RACiKZ6stlA==",
+      "type": "package",
+      "path": "fluentvalidation.dependencyinjectionextensions/11.11.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512",
+        "fluentvalidation.dependencyinjectionextensions.nuspec",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.xml",
+        "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.xml"
       ]
     },
     "MediatR/12.4.1": {
@@ -4581,6 +4668,11 @@
       "path": "../AniDefteri.Domain/AniDefteri.Domain.csproj",
       "msbuildProject": "../AniDefteri.Domain/AniDefteri.Domain.csproj"
     },
+    "Core.Application/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.Application/Core.Application.csproj",
+      "msbuildProject": "../Core/Core.Application/Core.Application.csproj"
+    },
     "Core.CrossCuttingConcerns/1.0.0": {
       "type": "project",
       "path": "../Core/Core.CrossCuttingConcerns/Core.CrossCuttingConcerns.csproj",
@@ -4596,7 +4688,10 @@
     "net8.0": [
       "AniDefteri.Domain >= 1.0.0",
       "AutoMapper >= 13.0.1",
+      "Core.Application >= 1.0.0",
       "Core.CrossCuttingConcerns >= 1.0.0",
+      "FluentValidation.AspNetCore >= 11.3.0",
+      "FluentValidation.DependencyInjectionExtensions >= 11.11.0",
       "MediatR >= 12.4.1"
     ]
   },
@@ -4630,6 +4725,9 @@
             "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\AniDefteri.Domain\\AniDefteri.Domain.csproj": {
               "projectPath": "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\AniDefteri.Domain\\AniDefteri.Domain.csproj"
             },
+            "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\Core\\Core.Application\\Core.Application.csproj": {
+              "projectPath": "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\Core\\Core.Application\\Core.Application.csproj"
+            },
             "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\Core\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj": {
               "projectPath": "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\Core\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj"
             }
@@ -4654,6 +4752,14 @@
           "AutoMapper": {
             "target": "Package",
             "version": "[13.0.1, )"
+          },
+          "FluentValidation.AspNetCore": {
+            "target": "Package",
+            "version": "[11.3.0, )"
+          },
+          "FluentValidation.DependencyInjectionExtensions": {
+            "target": "Package",
+            "version": "[11.11.0, )"
           },
           "MediatR": {
             "target": "Package",

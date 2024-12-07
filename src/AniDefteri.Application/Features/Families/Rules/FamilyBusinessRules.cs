@@ -5,7 +5,7 @@ namespace AniDefteri.Application.Features.Families.Rules;
 
 public class FamilyBusinessRules
 {
-    public void FamilyMustExist(Family family)
+    public void FamilyMustExist(Family? family)
     {
         if (family == null) throw new BusinessException("Family does not exist");
     }

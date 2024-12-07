@@ -197,3 +197,8 @@ C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\AniDefteri.WebApi\bin\Debu
 C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\AniDefteri.WebApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\AniDefteri.WebApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\AniDefteri.WebApi\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\AniDefteri.WebApi\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\AniDefteri.WebApi\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\AniDefteri.WebApi\bin\Debug\net8.0\Core.Application.dll
+C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\AniDefteri.WebApi\bin\Debug\net8.0\Core.Application.pdb
+C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\AniDefteri.WebApi\obj\Debug\net8.0\AniDefteri.WebApi.sourcelink.json

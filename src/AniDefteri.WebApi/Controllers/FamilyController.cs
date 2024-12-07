@@ -1,3 +1,4 @@
+using AniDefteri.Application.Features.Families.Commands;
 using AniDefteri.Application.Features.Families.DTOs;
 using AniDefteri.Application.Features.Families.Queries;
 using AniDefteri.Domain.Entities;
@@ -18,5 +19,12 @@ public class FamilyController : BaseController
         GetFamilyDTO request = new GetFamilyDTO() { FamilyId = familyId };
         GetFamilyResponseDto family = await Mediator.Send(new GetFamilyQuery(){Request = request});
         return Ok(family);
+    }
+
+    [HttpPost("addPerson")]
+    public async Task<IActionResult> AddPerson([FromBody] AddPersonDTO request)
+    {
+        AddedPersonDTO addedPersonDto = await Mediator.Send(new AddPersonCommand() { AddPersonDto= request });
+        return Ok(addedPersonDto);
     }
 }

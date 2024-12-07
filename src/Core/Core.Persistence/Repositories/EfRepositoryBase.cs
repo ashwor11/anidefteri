@@ -66,7 +66,7 @@ namespace Core.Persistence.Repositories
         }
 
         public async Task<TEntity> GetAsync(Expression<Func<TEntity, bool>> predicate, Func<IQueryable<TEntity>, IIncludableQueryable<TEntity,
-                                                                            object>>? include, bool enableTracking = true, CancellationToken cancellationToken = default)
+                                                                            object>>? include = null, bool enableTracking = true, CancellationToken cancellationToken = default)
         {
             IQueryable<TEntity> queryable = Query().AsQueryable();
             if (!enableTracking) queryable.AsNoTracking();

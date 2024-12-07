@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "74J2F2APaSnukEVN/pl21bJ7rveXXD/Yd9CEwhulZzaCB8axUp7/eoy0xLbmfPCq3p9Jnc2Qd2f+DmLZI/C1bA==",
+  "dgSpecHash": "r/XQs4tZB3Uhz0G5q3tOwe548mJcDt0Ev79IMQuXwDLkfLlyEOv9GJydXBk5lAwI61mzf/J5YSnre0S7P4Gwgw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Kerim\\Desktop\\Development\\AniDefteri_New\\src\\AniDefteri.Application\\AniDefteri.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kerim\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Kerim\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
+    "C:\\Users\\Kerim\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\Kerim\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.11.0\\fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512",
     "C:\\Users\\Kerim\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
     "C:\\Users\\Kerim\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Kerim\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

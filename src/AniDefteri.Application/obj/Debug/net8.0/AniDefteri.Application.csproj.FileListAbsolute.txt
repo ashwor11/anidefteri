@@ -17,3 +17,6 @@ C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\AniDefteri.Application\obj
 C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\AniDefteri.Application\obj\Debug\net8.0\refint\AniDefteri.Application.dll
 C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\AniDefteri.Application\obj\Debug\net8.0\AniDefteri.Application.pdb
 C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\AniDefteri.Application\obj\Debug\net8.0\ref\AniDefteri.Application.dll
+C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\AniDefteri.Application\bin\Debug\net8.0\Core.Application.dll
+C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\AniDefteri.Application\bin\Debug\net8.0\Core.Application.pdb
+C:\Users\Kerim\Desktop\Development\AniDefteri_New\src\AniDefteri.Application\obj\Debug\net8.0\AniDefteri.Application.sourcelink.json
